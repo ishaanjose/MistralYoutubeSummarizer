@@ -1,0 +1,4 @@
+mistralai
+python-dotenv
+youtube_transcript_api
+click
