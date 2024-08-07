@@ -2,7 +2,7 @@ from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
 from dotenv import load_dotenv
 import os
-from getTranscript import get_transcript
+from modules.getTranscript import get_transcript
 
 def summarize_video(youtube_url):
     load_dotenv()
